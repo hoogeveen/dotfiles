@@ -1,0 +1,154 @@
+{
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.renderWhitespace": "all",
+    "vscode-neovim.neovimPath": "/usr/local/bin/nvim",
+    "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 30,
+    "workbench.list.keyboardNavigation": "simple",
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.leader": "\\",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "m",
+                "a"
+            ],
+            "commands": [
+                "numberedBookmarks.toggleBookmark1"
+            ]
+        },
+        {
+            "before": [
+                "m",
+                "b"
+            ],
+            "commands": [
+                "numberedBookmarks.toggleBookmark2"
+            ]
+        },
+        {
+            "before": [
+                "m",
+                "c"
+            ],
+            "commands": [
+                "numberedBookmarks.toggleBookmark3"
+            ]
+        },
+        {
+            "before": [
+                "m",
+                "d"
+            ],
+            "commands": [
+                "numberedBookmarks.toggleBookmark4"
+            ]
+        },
+        {
+            "before": [
+                "m",
+                "e"
+            ],
+            "commands": [
+                "numberedBookmarks.toggleBookmark5"
+            ]
+        },
+        {
+            "before": [
+                "m",
+                "f"
+            ],
+            "commands": [
+                "numberedBookmarks.toggleBookmark6"
+            ]
+        },
+        {
+            "before": [
+                "m",
+                "g"
+            ],
+            "commands": [
+                "numberedBookmarks.toggleBookmark7"
+            ]
+        },
+        {
+            "before": [
+                "m",
+                "h"
+            ],
+            "commands": [
+                "numberedBookmarks.toggleBookmark8"
+            ]
+        },
+        {
+            "before": [
+                "m",
+                "i"
+            ],
+            "commands": [
+                "numberedBookmarks.toggleBookmark9"
+            ]
+        },
+        {
+            "before": [
+                "m",
+                "j"
+            ],
+            "commands": [
+                "numberedBookmarks.toggleBookmark0"
+            ]
+        },
+    ],
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "zenMode.hideStatusBar": false,
+    "zenMode.hideTabs": false,
+    "window.enableMenuBarMnemonics": false,
+    "window.menuBarVisibility": "default",
+    "window.zoomLevel": 1,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "yaml.schemas": {
+        "file:///Users/merijnhoogeveen/.vscode/extensions/atlassian.atlascode-2.5.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.jqlList": [
+        {
+            "id": "df8065ee-76df-4bfe-8486-c58e262b9ede",
+            "enabled": true,
+            "name": "My strangelove Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "fafbf59c-1256-4982-95dc-7a63848e8f33",
+            "monitor": true
+        }
+    ],
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "fafbf59c-1256-4982-95dc-7a63848e8f33",
+        "projectKey": "DEV"
+    },
+    "git.autofetch": true
+}
